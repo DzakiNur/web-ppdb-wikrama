@@ -1,0 +1,27 @@
+.card-heading, .card-subheading{
+	font-weight: bold;
+}
+
+.card.card-form{
+	max-width: 500px;
+	height: auto;
+	border: none;
+	border-radius: 10px;	
+    padding: 20px;
+}
+
+.form-control{
+	border-radius: 10px;
+    padding: 0 10px;
+    width: 100%;
+}
+
+.form-control:focus {
+    color: #495057;
+    border-color: #2e7eed !important;
+    box-shadow: 0 0 0 0 rgba(0,123,255,.25) !important;
+}
+
+label {
+    color: #000;
+}
